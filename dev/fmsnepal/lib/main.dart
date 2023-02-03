@@ -35,14 +35,12 @@ class HomePage extends StatelessWidget {
                 if (user != null) {
                   if (user.emailVerified) {
                     return Text('Email Verified');
+                  } else {
+                    return const Loginview();
                   }
+                } else {
+                  return const Text('Done');
                 }
-                // if (user?.emailVerified ?? false) {
-                //   print('You are a verified  user');
-                // } else {
-                //   print('You need to verify first');
-                // }
-                return const Text('Done');
               default:
                 return const Text('Loading...');
             }

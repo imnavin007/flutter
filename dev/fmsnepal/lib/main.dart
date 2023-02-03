@@ -3,6 +3,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:fmsnepal/firebase_options.dart';
 import 'package:fmsnepal/views/login_view.dart';
+import 'package:fmsnepal/views/register_view.dart';
+import 'package:fmsnepal/views/verify_email_view.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,6 +15,10 @@ void main() {
         primarySwatch: Colors.blue,
       ),
       home: const HomePage(),
+      routes: {
+        '/login/': ((context) => const Loginview()),
+        '/register/': ((context) => const Registerview()),
+      },
     ),
   );
 }
@@ -36,7 +42,7 @@ class HomePage extends StatelessWidget {
                   if (user.emailVerified) {
                     return Text('Email Verified');
                   } else {
-                    return const Loginview();
+                    return const VerifyEmailView();
                   }
                 } else {
                   return const Text('Done');

@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
                   return const Text('Done');
                 }
               default:
-                return const Text('Loading...');
+                return const CircularProgressIndicator();
             }
           },
         ));

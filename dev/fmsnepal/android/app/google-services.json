@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962145807851",
+    "project_id": "fmsnepal",
+    "storage_bucket": "fmsnepal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962145807851:android:1ed861279f4ee80bfdbdae",
+        "android_client_info": {
+          "package_name": "org.fmsnepal.fmsnepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962145807851-6p3b39giif0gp8f1eqc1lno404jcs2es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvPK6xxtq2l4hYhfTRnnifnPLn5XpVgJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962145807851-6p3b39giif0gp8f1eqc1lno404jcs2es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
